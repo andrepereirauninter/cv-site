@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport"
+    >
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>André Pereira - CV</title>
+    <link href="styles.css" rel="stylesheet">
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="header__nav">
+        <ul>
+          <li><a class="header__nav-link" href="#header">Ínicio</a></li>
+          <li><a class="header__nav-link" href="#about">Sobre mim</a></li>
+          <li><a class="header__nav-link" href="#education">Formação</a></li>
+          <li><a class="header__nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="header__nav-link" href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2 class="title">Sobre mim</h2>
+        <p class="subtitle">
+          Meu nome é André Pereira e tenho <span id="age">0</span> anos.
+        </p>
+        <p class="subtitle">
+          Meus hobbies são: ler livros, jogar e assistir futebol.
+        </p>
+      </section>
+
+      <section id="education">
+        <h2 class="title">Formação</h2>
+        <p class="subtitle">
+          Atualmente estou cursando Análise e Desenvolvimento de Sistemas na UNINTER.
+        </p>
+        <p class="subtitle">Meu nível de inglês é intermediário</p>
+      </section>
+
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p class="subtitle">
+          Seguem alguns dos projetos desenvolvidos
+        </p>
+        <div class="portfolio__container">
+          <a href="https://andrepereirauninter.github.io/borders/">
+            <img
+                alt="Projeto para teste com bordas"
+                src="img/borders.png"
+            />
+          </a>
+          <a href="https://andrepereirauninter.github.io/forms/">
+            <img
+                alt="Projeto para teste com formulários"
+                src="img/forms.png"
+            />
+          </a>
+          <a href="https://andrepereirauninter.github.io/lists/">
+            <img
+                alt="Projeto para teste com listas"
+                src="img/lists.png"
+            />
+          </a>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="title">Contato</h2>
+        <p class="subtitle">Caso deseje entrar em contato comigo, envie-me uma mensagem</p>
+        <form>
+          <label for="name">Nome:</label>
+          <input id="name" name="name" placeholder="Nome" type="text">
+          <label for="email">Email:</label>
+          <input id="email" name="email" placeholder="Email" type="email">
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" placeholder="Mensagem"></textarea>
+          <button id="submit" type="button">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>André Pereira - 2023</p>
+    </footer>
+  </body>
+</html>
